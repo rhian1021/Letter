@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 134, 209);
+}
+
+
+/* COVER */
+
+.cover{
+    width: 700px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(167, 73, 167);
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.cover h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cover p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.button{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: white;
+    color: rgb(167, 73, 167);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: rgb(238, 190, 238);
+}
+
+
+/* MESSAGE */
+
+.container{
+    width: 750px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(238, 190, 238);
+    text-align: center;
+    overflow: hidden;
+}
+
+.container h2{
+    padding: 15px;
+    background-color: rgb(167, 73, 167);
+    color: white;
+}
+
+.message{
+    padding: 35px 50px;
+}
+
+.message h3{
+    color: rgb(140, 60, 140);
+    margin-bottom: 20px;
+}
+
+.message p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/* BUTTONS */
+
+.picture-button,
+.music-button{
+    padding: 10px 25px;
+    background-color: rgb(167, 73, 167);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.picture-button:hover,
+.music-button:hover{
+    background-color: rgb(140, 60, 140);
+}
+
+
+/* PICTURE */
+
+.picture-box{
+    display: none;
+    margin-top: 20px;
+}
+
+.picture-box img{
+    width: 1000px;
+    max-width: 100%;
+    border: 2px solid rgb(167, 73, 167);
+    border-radius: 15px;
+}
+
+
+/* BACK BUTTON */
+
+.back{
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    background-color: rgb(167, 73, 167);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.back:hover{
+    background-color: rgb(140, 60, 140);
+}

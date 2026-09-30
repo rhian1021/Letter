@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's Month Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Happy Teacher's Month</h2>
+
+        <div class="message">
+
+            <h3>To my Dear Prof.,</h3>
+
+            <p>
+                Thank you for everything, for guiding us and for always
+                doing your best even though sometimes we are hard-headed.
+                Thank you also for the long patience you have given to us.
+            </p>
+
+            <p>
+                We really appreciate all the things you do for us and
+                all the knowledge you have shared with us.
+            </p>
+
+            <h3>Happy Teacher's Month! </h3>
+
+            <p>Thank you for being a great teacher.</p>
+
+            <button onclick="showPicture()" class="picture-button">
+                View Picture
+            </button>
+
+            <div id="pictureBox" class="picture-box">
+                <img src="Picture.jpg" alt="Teacher's Picture">
+            </div>
+
+            <button onclick="playMusic()" class="music-button">
+                 Play Music
+            </button>
+
+            <audio id="music">
+                <source src="Salamat.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+        <a href="index.html" class="back">
+            Back to Cover
+        </a>
+
+    </div>
+
+    <script>
+        function showPicture(){
+            var picture = document.getElementById("pictureBox");
+
+            if(picture.style.display == "block"){
+                picture.style.display = "none";
+            }
+            else{
+                picture.style.display = "block";
+            }
+        }
+
+        function playMusic(){
+            var music = document.getElementById("music");
+
+            if(music.paused){
+                music.play();
+            }
+            else{
+                music.pause();
+            }
+        }
+    </script>
+
+</body>
+</html>
